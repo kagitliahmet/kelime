@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Translation Practice</h1>
+
+        <!-- CSV Dosyasını Seç -->
+        <input type="file" id="csvFileInput" accept=".csv">
+
+        <p id="question">Word will appear here...</p>
+        <p id="exampleSentence" class="exampleSentence">Example sentence will appear here...</p>
+        <input type="text" id="answer" placeholder="Enter your answer here">
+        <button id="submitBtn">Submit</button>
+        <div id="feedback"></div>
+        <p id="progress"></p>
+        <div id="wrongWords"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
